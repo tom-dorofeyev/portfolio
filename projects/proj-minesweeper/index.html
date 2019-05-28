@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/BalooBhai-Regular.ttf">
+    <link rel="stylesheet" href="fonts/MaidenOrange-Regular.ttf">
+    <title>Mine Sweeper</title>
+</head>
+
+<body onload="init()">
+
+    <h1>Mine Sweeper</h1>
+    <h2></h2>
+    <div class="container">
+
+        <div class="restart">
+            <input id="smile" type="image" src="img/happy.png" />
+        </div>
+        <div class="timer">00</div>
+
+
+        <div class='radio'>
+            <input onchange="setLevel(this)" type="radio" name="level" value="4"> EASY<br>
+            <input onchange="setLevel(this)" type="radio" name="level" value="8">MEDIUM<br>
+            <input onchange="setLevel(this)" type="radio" name="level" value="12"> HARD
+        </div>
+
+        <div class="game-board" oncontextmenu="return false;">
+            <table>
+                <tbody class="board"></tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script src="js/minesweep.js"></script>
+</body>
+
+</html>

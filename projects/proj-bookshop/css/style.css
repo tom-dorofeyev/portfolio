@@ -1,0 +1,55 @@
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(12, 23, 32);
+  height:100px;
+  text-align: center;
+  color:#e9ebe4;
+  font-size: 5em;
+  font-family: 'Lobster', cursive;
+}
+
+footer {
+  background-color:  black;
+  text-align: center;
+  color:lightblue;
+}
+
+.modal-price{
+  width:100px;
+}
+
+.modal-body{  
+  display:flex;
+  align-content: space-between;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+pre {
+  background-color: lightgray;
+}
+p {
+  font-size: 2em;
+}
+
+.add-book{
+  float:left;
+}
+
+img{
+  width: 80px;
+  height:110px;
+}
+

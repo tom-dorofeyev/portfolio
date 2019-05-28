@@ -1,0 +1,28 @@
+body{
+    background-image: radial-gradient(circle, #a4adb9, #6ac3dd, #00dad3, #0be992, #a8eb12);
+}
+
+table{
+    width:200px;
+    height:200px;
+    font-size: 40px;
+    text-align:center;
+    border: solid black;
+    margin:auto;
+}
+
+td{
+    width:20px;
+    height:20px;
+    border: solid black;
+    cursor:pointer;
+}
+
+.text{
+    font-family: 'Anton', sans-serif;
+    text-align:center;
+}
+
+td:hover{
+    background-color: lightgreen;
+}
