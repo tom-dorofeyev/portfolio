@@ -3,6 +3,13 @@ $(document).ready(()=>{
     $('.portfolio-link').click((ev)=>{
     renderProjectModal(ev.target.id);
     })
+    $('.form-contact-submit').click(()=>{
+        var text = $('.contact-me-text').val();
+        var subject = $('.contact-me-subject').val();
+        var userEmail = $('.contact-me-user-email').val();
+        var url = `https://mail.google.com/mail/?view=cm&fs=1&to=${userEmail}&su=${subject}&body=${text}`
+        window.open(url);
+    })
 })
 
 function renderProjectModal(projectId){
