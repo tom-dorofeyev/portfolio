@@ -11,11 +11,11 @@ function generateProjects(){
     'projects/proj-minesweeper/index.html', '16/05/2019', 'recursion, game', 'img/portfolio/mine-sweeper-full.png'));
 
     gProjects.push(new Project(gId++, 'guessMe', 'Guess Me', 'think of a character and the site will guess',
-    'projects/proj-guessMe/index.html', '25/05/2019', 'local storage, objects'));
+    'projects/proj-guessMe/index.html', '25/05/2019', 'local storage, objects', 'img/portfolio/guess-who.png'));
 
     gProjects.push(new Project(gId++, 'touchTheNum', 'Touch The Num',
     'touch the number from 1 to the number of nums by order', 'projects/proj-touch-the-num/index.html',
-    '10/05/2019', 'game'));
+    '10/05/2019', 'game', 'img/portfolio/touch-the-num.png'));
 }
 
 function getProjById(id){
